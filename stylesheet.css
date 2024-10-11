@@ -1,0 +1,41 @@
+h1 {
+    font-style: italic;
+}
+
+header {
+    background-color: white;
+}
+
+.grid-container {
+    text-align: center;
+    display: grid;
+    grid-gap: 5px;
+    padding: 5px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-item {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.grid-item::-webkit-scrollbar {
+    display: none;
+}
+
+.grid-container > div {
+    height: 80vh;
+}
+
+#item1 {
+    background-color: mistyrose;
+    overflow: scroll;
+    font-size: 30px;
+}
+
+#item2 {
+    background-color: darksalmon;
+    overflow: scroll;
+    font-size: 30px;
+}
+
